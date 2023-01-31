@@ -1,0 +1,7 @@
+name: AncientCitiesControl
+version: '${project.version}'
+main: cz.stepes.ancientcitiescontrol.Main
+api-version: 1.19
+load: STARTUP
+authors: [ Stepes ]
+description: Ability to control generation rates on Ancient Cities

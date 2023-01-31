@@ -1,0 +1,6 @@
+generationSettings:
+  spacing: 2
+  separation: 1
+  # Spread types: linear, triangular
+  spreadType: "linear"
+  salt: 123456
