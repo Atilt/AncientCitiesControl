@@ -1,7 +1,12 @@
 name: AncientCitiesControl
-version: '${project.version}'
-main: cz.stepes.ancientcitiescontrol.Main
+version: ${project.version}
+main: cz.stepes.ancientcitiescontrol.AncientCitiesControl
 api-version: 1.19
 load: STARTUP
-authors: [ Stepes ]
+authors:
+  - Stepes
+  - Atilt
 description: Ability to control generation rates on Ancient Cities
+
+commands:
+  ancientcities:
