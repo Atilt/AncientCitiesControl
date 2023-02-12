@@ -37,13 +37,13 @@ public final class CommandReload implements CommandExecutor {
             Logger logger = this.plugin.getLogger();
             GenerationSettings settings = generationManager.getGenerationSettings();
 
-            logger.info("-------------------------------------------------------");
-            logger.info( "Mapped Ancient Cities in new worlds with settings:");
+            logger.info("--------------------------------------------------------");
+            logger.info( "New worlds will now be mapped with these settings:");
             logger.info( " -spacing: " + settings.spacing());
             logger.info( " -separation: " + settings.separation());
             logger.info( " -spreadType: " + settings.spreadType());
             logger.info( " -salt: " + settings.salt());
-            logger.info("-------------------------------------------------------");
+            logger.info("--------------------------------------------------------");
             return true;
         }
         commandSender.sendMessage(ChatColor.RED + "Usage: /ancientcities reload");

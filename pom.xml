@@ -25,6 +25,7 @@
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <includes>
+                    <include>config.yml</include>
                     <include>plugin.yml</include>
                 </includes>
             </resource>
@@ -87,6 +88,14 @@
                 <version>3.10.1</version>
                 <configuration>
                     <encoding>utf-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <outputDirectory>C:\Users\Angel\Desktop\Minecraft Projects\plugins</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
